@@ -1,70 +1,16 @@
-# Getting Started with Create React App
+###CRUD가 동작하는 Todo 앱 만들기
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+기획 단계가 완성되었다면, CRUD가 동작하는 Todo app을 직접 구현해봅니다. 
+반드시 CRUD 기능이 동작해야 합니다. 
+CRUD 기능이 동작하기 위해서는 State와 Props, 혹은 Redux를 기본적으로 다룰 줄 알아야 합니다. 
+CRUD 기능이 담긴 앱을 만들며 해당 개념에 대해 어느 정도 숙지하고 넘어가길 바랍니다. 
+실제 개발에서는 백엔드 엔지니어가 서버를 구성한 뒤 API 문서를 만들어 여러분에게 전달하겠지만 지금은 혼자 개발을 해야 합니다. 
+그렇다고 서버를 직접 구현하기에는 시간이 많이 듭니다. 
+그러므로 이번에는 간단하게 json 파일을 이용하여 자신의 로컬 컴퓨터에 서버를 구축하겠습니다. 
+json-server 라이브러리를 이용하여 서버를 구축합니다. 
+어떻게 구축하는 지 잊었나요? Section4 Unit4 React 심화의 과제 - 시작하기 에 json-server를 구축하는 방법이 나옵니다. 
+해당 컨텐츠를 참고하여 서버를 구축해주세요. 
+(Optional) Storybook을 사용해 여러분이 만들었던 컴포넌트를 정리해보세요.
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+##구현 
+![todoCRUD](https://user-images.githubusercontent.com/107971188/196372823-b3810816-7249-4089-ba8f-60ca837ba3f6.gif)
